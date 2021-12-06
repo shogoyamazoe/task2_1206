@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="main.css">
+<title>sample</title>
+</head>
+<body>
+<h3>電卓</h3>
+<input type="text" id="result">
+<div>
+<input id ="st" type="button" value="7" onclick="edit(this)">
+<input id ="st" type="button" value="8" onclick="edit(this)">
+<input id ="st" type="button" value="9" onclick="edit(this)">
+<input id ="st" type="button" value="/" onclick="asmd(this)">
+</div>
+<div>
+<input id ="st" type="button" value="4" onclick="edit(this)">
+<input id ="st" type="button" value="5" onclick="edit(this)">
+<input id ="st" type="button" value="6" onclick="edit(this)">
+<input id ="st" type="button" value="*" onclick="asmd(this)">
+</div>
+<div>
+<input id ="st" type="button" value="1" onclick="edit(this)">
+<input id ="st" type="button" value="2" onclick="edit(this)">
+<input id ="st" type="button" value="3" onclick="edit(this)">
+<input id ="st" type="button" value="-" onclick="asmd(this)">
+</div>
+<div>
+<input id ="st" type="button" value="0" onclick="edit(this)">
+<input id ="st" type="button" value="00" onclick="zero(this)">
+<input id ="st" type="button" value="." onclick="asmd(this)">
+<input id ="st" type="button" value="+" onclick="asmd(this)">
+</div>
+<div>
+<input id ="lo"class="clear" type="button" value="AC" onclick="update()">
+<input id ="lo"class="enter" type="button" value="=" onclick="calc()">
+</div>
+<script src="main.js"></script>
+</body>
+</html>
